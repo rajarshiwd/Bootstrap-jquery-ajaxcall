@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/javascript.js"></script>
+        <style>
+            body {
+		background-color: #000;
+	}
+	
+@font-face {
+    font-family: segoe;
+    src: url(fonts/segoesc.ttf);
+}
+
+div.image-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.image-wrapper img {
+  display: block;
+}
+
+#test { position:absolute; left:0; top:70%; right:0; height:100px; margin: 0 auto; text-align:center;
+  width: 100%;
+}
+
+#test p {
+  width: 100%;
+  font-family: 'Loved by the King';
+  font-size: 30px;
+  text-align: center;
+  color: #FAEDE8;
+  margin-top: -40px;
+    -webkit-animation: fadeInLeft 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeInLeft 5s; /* Firefox < 16 */
+        -ms-animation: fadeInLeft 5s; /* Internet Explorer */
+         -o-animation: fadeInLeft 5s; /* Opera < 12.1 */
+            animation: fadeInLeft 5s;
+}
+
+#test canvas { margin:0 auto; text-align:center;    font-family: 'Loved by the King'; }
+@keyframes fadeInLeft {
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateX(-15px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeInLeft {
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateX(-15px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeInLeft {
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateX(-15px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeInLeft {
+   0% { 
+        opacity: 0; 
+        -webkit-transform: translateX(-15px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeInLeft {
+   0% { 
+        opacity: 0; 
+        -webkit-transform: translateX(-15px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+}
+        </style>
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <div class="image-wrapper">
+  <a href="home.html">
+    <img src="http://japesfawcett.com/testsh/images/landing_logo2.png" />
+  </a>
+
+  
+</div>
+
+
+<div id="test" class="fancy_title">
+      <canvas width=640 height=100></canvas>
+      <canvas width=640 height=100>beufburbvbwobvibiwbvibw</canvas>
+  </div>
+    </body>
+</html>
